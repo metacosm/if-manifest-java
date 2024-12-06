@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.laprun.sustainability</groupId>
   <artifactId>if-manifest-java</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3-SNAPSHOT</version>
 
   <name>if-manifest-java</name>
   <description>Manipulate Green Software Foundation's Impact Framework manifests in Java</description>
@@ -29,7 +29,7 @@
   <scm>
     <connection>scm:git:git://github.com/metacosm/if-manifest-java.git</connection>
     <developerConnection>scm:git:git@github.com/metacosm/if-manifest-java.git</developerConnection>
-    <tag>0.0.2</tag>
+    <tag>HEAD</tag>
     <url>https://github.com/metacosm/if-manifest-java/tree/main</url>
   </scm>
 
@@ -174,7 +174,7 @@
             <importOrder>
               <file>contributing/eclipse.importorder</file>
             </importOrder>
-            <removeUnusedImports/>
+            <removeUnusedImports />
           </java>
         </configuration>
         <executions>
