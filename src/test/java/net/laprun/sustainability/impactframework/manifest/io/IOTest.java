@@ -21,7 +21,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class IOTest {
 
   @Test
-  void toYAMLFile() throws IOException {
+  void roundtripShouldWork() throws IOException {
     final var initialize = new Initialize(Map.of("plugin",
         new Plugin("plugin-name", "https://github.com/metacosm/if-manifest-java", "export")));
     final var metadata = new Metadata("manifest", "description", Set.of("tag1", "tag2"));
