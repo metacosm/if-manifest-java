@@ -54,7 +54,7 @@
     <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
     <spotless.version>2.44.5</spotless.version>
 
-    <jackson.version>2.19.0</jackson.version>
+    <jackson.version>2.19.1</jackson.version>
     <junit.version>5.13.1</junit.version>
   </properties>
 
